@@ -92,4 +92,4 @@ balancing.
 - Introduction to AWS Direct Connect and Global Accelerator.
 
 ### Section 13
-- Migration from cloudendure
+- Migration from cloudendure.

@@ -1,4 +1,4 @@
-- Introduction to Cloud Computing :-
+### Introduction to Cloud Computing :-
 
   Cloud computing is the on-demand delivery of IT resources and apps through internet with pay-as-you-go pricing model.
   whether you run apps or deliver services that support the critical operations of your business, the cloud provides rapid access to flexible and low-cost IT 
@@ -8,7 +8,7 @@
   Cloud computing providers such as AWS own and maintain the network-connected hardware required for those application services, while you provision and use 
   what you need for your workloads.
 
-- Why Cloud Computing
+### Why Cloud Computing
 
   Many businesses large and small use cloud computing today either directly  (e.g. Google or Amazon) or indirectly (e.g. Twitter) instead of traditional on-site alternatives.
    Reduction of costs
@@ -18,7 +18,7 @@
    Potential to be greener and more economical
    Flexibility
 
-- Benifit
+### Benifit
 
   Faster Deployments: Because there’s no wait for local computing resources
   Usage-based pricing: letting you pay only for what you us
@@ -26,7 +26,7 @@
   Easier upgrades: with no on-premises software to update
   Reduced need for on-premises resources: such as servers and IT staff
 
-- Disadvantages of Cloud Computing
+### Disadvantages of Cloud Computing
 
   Security Issues: Secuity is the major issue in cloud computing. The cloud  services implement the best security standards and industry  certifications. however storing data on external service providers always  bears a risk.
   Technical Issues: You always need to rely on the internet like  uploading/downloading and migrating.
@@ -34,28 +34,30 @@
   Cloud computing enables a user to focus on their projects and customers, without worrying about infrastructure concerns. It not only
   saves time, money, and effort but also allows users to concentrate on the differentiating aspects of their business.
 
-- Understanding differences between On-premises and Cloud architecture
+### Understanding differences between On-premises and Cloud architecture
 
-  So Lets start with Data Centre as you all know Earlier Every organisation having a dataCentre which is small or big 
-  so what is data Centres ? Datacentres In which will be having servers,will be having Databases,will be having Network infrastructure so that is what the dataCentre is
+  So Lets start with Data Center as you all know Earlier Every organisation having a dataCentre which is small or big according to there need.
+- what is data Centres ? 
+  Datacentres In which will be having servers,Databases, Network infrastructure.
   First of all in Datacentre you will be having physical Hardware it may be of IBM,HP,DELL etc then you will install OS on these Hardware that may be Windows,Linux then you install Application on these OS That could be email servers,
-  web server and as a solution architecture your job is you need to make these Application Highly Available so for that what we are doing we were keeping another identical Hardware for same Hardware and installed same OS and Application
+  web server production and nonproduction servers etc and as a solution architecture your job is you need to make these Application Highly Available so for that what we are doing we were keeping another identical Hardware for same Hardware and installed same OS and Application
   and then we were create cluster (what is Cluster :- its a group of two or more then two  Hardwares known as Cluster) if one Hardware fails then another Harware takeover and application will not going Down so like this we manages the
-  HA before 10-15 years back But Here we phases some challeges that we were not able to do effective utalization of resources "like in our case we manages two hardware as cluster but here if first hardware is not failed then the 2nd 
-  one is always unutalized" 2nd is highcost cost of project will be double if you using two Hardware for a single application 3rd Managebility was tough if suppose you need 50 servers but now you using 100 servers that needed more space
-  more power consumption more cooling more man power to manage these resources so earlier we phases these challeges in traditional datacentres.
+  HA before 10-15 years back. But Here we face some challeges that we were not able to do effective utalization of resources "like in our case we manages two hardware as cluster but here if first hardware is not failed then the 2nd 
+  one is always unutalized" 
+  Highcost:  cost of project will be double if you using two Hardware for a single application 
+  Managebility was tough if suppose you need 50 servers after using Cluster using 100 servers that needed more space more power consumption more cooling more man power to manage these resources so earlier we faces these challeges in traditional datacentres.
 
-- Disadvantages of traditional Data Centre:- 
+### Disadvantages of traditional Data Centre:- 
   System resources were under utalized :- if suppose first H/W is not failed then second one is under utalized
   Difficult to Manage :- 
   Some times Electricity bill of Data Center was more than the cost of infra :- infra is always having a depreciation cost Every year its 20% less every year after 5 the infra will not be having any significant cost 
 
-- When we were having these challanges 3 companies started working on these challenges they started working on the concept of Virtualization
+### When we were having these challanges 3 companies started working on these challenges they started working on the concept of Virtualization
   Microsoft 
   VM Ware
   Xen
 
-- They created a software and the name of the software is hypervisor and hypervisor is a softwae which initiate or starts the virtalization
+### They created a software and the name of the software is hypervisor and hypervisor is a softwae which initiate or starts the virtalization
   When Hypervisor came in market so companies launched there own hypervisor there own name
   Hyperviser Flavours
   Microsoft - HyperV
@@ -65,29 +67,29 @@
 
 ### After HiperViser (PiC)
 
-These hyperviser created all Traditional data centers to virtualdatacenter 
-so after solved these traditional Datacenters Challenges we also having challanges in Virtual Datacenters and one of the biggest challenge is that, these days
-the kind of application which we are having the companies they are maintaining monitoring deploying these application into different different regions around
-the worlds
-Ex
-Integrating these virtaldatacentre with a webinterface using Rest APIs(using to control infra) and these platform known as cloud platform with these we can manage cloud
+  These hyperviser created all Traditional data centers to virtualdatacenter 
+  so after solved these traditional Datacenters Challenges we also having challanges in Virtual Datacenters and one of the biggest challenge is that, these days
+  the kind of application which we are having the companies they are maintaining monitoring deploying these application into different different regions around
+  the worlds
+  Ex
+  Integrating these virtualdatacenter with a webinterface using Rest APIs(using to control infra) these platform known as cloud platform with these we can manage cloud
 
-Three types of cloud 
+### Three types of cloud 
 Public 
 Private 
 Hybride 
 
-Private Cloud
+### Private Cloud
 
 It is Single Tenant
 IBM - Softlayer
 Fixed Capacity
 
-Disadvantage
+### Disadvantage
 Agility :- How easily you get things
 Elasticity :- How Many you get things
 
-Public Cloud
+### Public Cloud
 
 Multi Tenant :- Multipal organization can use this cloud in different different model
 SAAS (Software as a service) :- you are going to use a perticular software as a service (Dropbox,office365 you can access your data from anywhere with any device)
@@ -114,7 +116,7 @@ Hybride Cloud
 Both private and Public 
 
 
-Introduction to AWS
+### Introduction to AWS
 
 In 2006 some Engineers of Aws Suggested to Management that the Access Capacity of resources we have we should have to start selling the Access Capacity of resources
 They started selling the capacity (CPU, RAM, Storage) Storage is always ondemand in every datacenter 
@@ -129,7 +131,7 @@ History
 •2013 Certifications Launched
 
 
-Understanding AWS Regions & Availability Zones.
+###Understanding AWS Regions & Availability Zones.
 Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of regions and Availability Zones. Each region is a separate geographic area.
 Each region has multiple, isolated locations known as Availability Zones. Amazon EC2 provides you the ability to place resources, such as instances, and data in multiple locations. Resources aren't replicated across regions unless you do so specifically.
 Each region is completely independent. Each Availability Zone is isolated, but the Availability Zones in a region are connected through low-latency links.

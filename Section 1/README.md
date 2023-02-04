@@ -8,7 +8,7 @@
   Cloud computing providers such as AWS own and maintain the network-connected hardware required for those application services, while you provision and use 
   what you need for your workloads.
 
-![architecture](./images/Cloud-Service-Models-IaaS-PaaS-SaaS.jpg)
+![architecture](./images/WhatIsCC.png)
 
 ### Why Cloud Computing
 
@@ -39,6 +39,9 @@
 ### Understanding differences between On-premises and Cloud architecture
 
   So Lets start with Data Center as you all know Earlier Every organisation having a dataCentre which is small or big according to there need.
+
+![architecture](./images/TraditionalDataCenter.png)
+
 - what is data Centres ? 
   Datacentres In which will be having servers,Databases, Network infrastructure.
   First of all in Datacentre you will be having physical Hardware it may be of IBM,HP,DELL etc then you will install OS on these Hardware that may be Windows,Linux then you install Application on these OS That could be email servers,
@@ -69,6 +72,8 @@
 
 ### After HiperViser (PiC)
 
+![architecture](./images/afterHyperviser.png)
+
   These hyperviser created all Traditional data centers to virtualdatacenter 
   so after solved these traditional Datacenters Challenges we also having challanges in Virtual Datacenters and one of the biggest challenge is that, these days
   the kind of application which we are having the companies they are maintaining monitoring deploying these application into different different regions around
@@ -79,7 +84,9 @@
 ### Three types of cloud 
 Public 
 Private 
-Hybride 
+Hybride
+
+![architecture](./images/threeTypesOfCloud.png)
 
 ### Private Cloud
 
@@ -92,6 +99,8 @@ Agility :- How easily you get things
 Elasticity :- How Many you get things
 
 ### Public Cloud
+
+![architecture](./images/CloudServiceModelsIaaSPaaSSaaS.png)
 
 Multi Tenant :- Multipal organization can use this cloud in different different model
 SAAS (Software as a service) :- you are going to use a perticular software as a service (Dropbox,office365 you can access your data from anywhere with any device)
@@ -138,6 +147,9 @@ Amazon EC2 is hosted in multiple locations world-wide. These locations are compo
 Each region has multiple, isolated locations known as Availability Zones. Amazon EC2 provides you the ability to place resources, such as instances, and data in multiple locations. Resources aren't replicated across regions unless you do so specifically.
 Each region is completely independent. Each Availability Zone is isolated, but the Availability Zones in a region are connected through low-latency links.
 The following diagram illustrates the relationship between regions and Availability Zones.
+
+![architecture](./images/AwsAZAndRegion.png)
+
 Regions :- Location 
 Mumbai, Sydney, Virginia now 31 regions service is now available
 Here so many of Data Centers created by Amazone 

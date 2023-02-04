@@ -8,7 +8,7 @@
   Cloud computing providers such as AWS own and maintain the network-connected hardware required for those application services, while you provision and use 
   what you need for your workloads.
 
-![architecture](./images/After%20Hyperviser.PNG)
+![architecture](https://github.com/Divanshu231/AWS_tutorials/blob/main/Section%201/images/After%20Hyperviser.PNG)
 
 ### Why Cloud Computing
 

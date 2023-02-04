@@ -1,4 +1,4 @@
-# AWS_tutorials
+# Course Introduction
 
 ### Section 1
 - Introduction to Cloud Computing

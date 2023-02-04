@@ -74,7 +74,10 @@
 
 ![architecture](./images/afterHyperviser.png)
 
-  These hyperviser created all Traditional data centers to virtualdatacenter 
+  These hyperviser created all Traditional data centers to virtualdatacenter
+
+![architecture](./images/VirtualDatacenter.png)
+
   so after solved these traditional Datacenters Challenges we also having challanges in Virtual Datacenters and one of the biggest challenge is that, these days
   the kind of application which we are having the companies they are maintaining monitoring deploying these application into different different regions around
   the worlds

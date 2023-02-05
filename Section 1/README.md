@@ -59,19 +59,34 @@ Cloud computing enables a user to focus on their projects and customers, without
 
 ### Understanding differences between On-premises and Cloud architecture
 
-  So Lets start with Data Center as you all know Earlier Every organisation having a dataCentre which is small or big according to there need.
+You might have heard the term **Data Center** as every organisation needs it, small or big according to their need.
+
+However, there is a difference in the traditional data centers and the latest ones.
+
+**what are Data Centres?**
+
+> A data center is a facility that provides shared access to applications and data using a complex network, compute, and storage infrastructure. It consists of Servers, Databases, Network infrastructure etc.
+
+
+This is how a traditional data center looks like.
 
 ![architecture](./images/TraditionalDataCenter.png)
 
-- what is data Centres ? 
-  Datacentres In which will be having servers,Databases, Network infrastructure.
-  First of all in Datacentre you will be having physical Hardware it may be of IBM,HP,DELL etc then you will install OS on these Hardware that may be Windows,Linux then you install Application on these OS That could be email servers,
-  web server production and nonproduction servers etc and as a solution architecture your job is you need to make these Application Highly Available so for that what we are doing we were keeping another identical Hardware for same Hardware and installed same OS and Application
-  and then we were create cluster (what is Cluster :- its a group of two or more then two  Hardwares known as Cluster) if one Hardware fails then another Harware takeover and application will not going Down so like this we manages the
-  HA before 10-15 years back. But Here we face some challeges that we were not able to do effective utalization of resources "like in our case we manages two hardware as cluster but here if first hardware is not failed then the 2nd 
-  one is always unutalized" 
-  Highcost:  cost of project will be double if you using two Hardware for a single application 
-  Managebility was tough if suppose you need 50 servers after using Cluster using 100 servers that needed more space more power consumption more cooling more man power to manage these resources so earlier we faces these challeges in traditional datacentres.
+
+Referring to the above diagram of traditional Data center, you will be having physical Hardware and it may be of IBM, HP, DELL or any other vendor.
+
+Then you will install OS on these Hardware that may be Windows or Linux.
+
+Then you install application(s) on these OS which could be email server(s), web server(s), production or non-production servers etc. As a solution architect, your job is to make these applications **Highly Available**. We often use the term **HA** or **High Availability**, which means the application should have negligible downtime.
+
+For HA, we are keeping another identical Hardware and installed same OS and Application. And then we were create a cluster.
+
+**What is Cluster?**
+> It is a group of two or more then two hardwares. If one Hardware fails, then another one takeover and application do not see downtime.
+
+ so like this we manages the HA before 10-15 years back. But Here we face some challeges that we were not able to do effective utalization of resources "like in our case we manages two hardware as cluster but here if first hardware is not failed then the 2nd one is always unutalized" 
+Highcost:  cost of project will be double if you using two Hardware for a single application 
+Managebility was tough if suppose you need 50 servers after using Cluster using 100 servers that needed more space more power consumption more cooling more man power to manage these resources so earlier we faces these challeges in traditional datacentres.
 
 ### Disadvantages of traditional Data Centre:- 
   System resources were under utalized :- if suppose first H/W is not failed then second one is under utalized

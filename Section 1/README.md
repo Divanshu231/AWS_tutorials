@@ -1,24 +1,36 @@
-### Introduction to Cloud Computing :-
+# Cloud Basics
 
-  Cloud computing is the on-demand delivery of IT resources and apps through internet with pay-as-you-go pricing model.
-  whether you run apps or deliver services that support the critical operations of your business, the cloud provides rapid access to flexible and low-cost IT 
-  resources.With cloud computing, you don’t need to make large up-front investments in hardware/software and spend a lot of time managing that resources.
+#### What is Cloud?
 
-  In it's simplest form, cloud computing provides an easy way to access servers, storage, databases, and a broad set of application services over the internet. 
-  Cloud computing providers such as AWS own and maintain the network-connected hardware required for those application services, while you provision and use 
-  what you need for your workloads.
+  **Cloud** refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
 
-![architecture](./images/WhatIsCC.png)
 
-### Why Cloud Computing
+#### What is Cloud Computing?
+  Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software etc over the Internet to offer flexible & economic resources that ensure high availability.
 
-  Many businesses large and small use cloud computing today either directly  (e.g. Google or Amazon) or indirectly (e.g. Twitter) instead of traditional on-site alternatives.
-   Reduction of costs
-   Universal access
-   Up to date software
-   Choice of applications.
-   Potential to be greener and more economical
-   Flexibility
+In it's simplest form, cloud computing provides an easy way to access servers, storage databases, and a broad set of application services over the internet. 
+Cloud computing providers such as AWS own and maintain the network-connected hardware required for those application services, while you provision and use what you need for your workloads.
+ 
+![architecture](./images/CloudComputing.jpg)
+
+
+#### Why Cloud Computing?
+
+Many businesses large and small use cloud computing today either directly  (e.g. Google or Amazon) or indirectly (e.g. Twitter) instead of traditional on-site alternatives.
+
+Instead of setting up huge servers, databases etc across the globe, Cloud services are being used. Cloud offers these advantages:
+
+- Reduction of costs
+
+- Universal access
+
+- Up to date software
+
+- Choice of applications.
+
+- Potential to be greener and more economical
+
+- Flexibility
 
 ### Benifit
 

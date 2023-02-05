@@ -1,12 +1,12 @@
 # Cloud Basics
 
 
-#### What is Cloud?
+### What is Cloud?
 
 > **Cloud** refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
 
 
-#### What is Cloud Computing?
+### What is Cloud Computing?
 > Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software etc over the Internet to offer flexible & economic resources that ensure high availability.
 
 In it's simplest form, cloud computing provides an easy way to access servers, storage databases, and a broad set of application services over the internet. 
@@ -15,7 +15,7 @@ Cloud computing providers such as AWS own and maintain the network-connected har
 ![architecture](./images/CloudComputing.jpg)
 
 
-#### Why Cloud Computing?
+### Why Cloud Computing?
 
 Many businesses large and small use cloud computing today either directly  (e.g. Google or Amazon) or indirectly (e.g. Twitter) instead of traditional on-site alternatives.
 
@@ -34,21 +34,28 @@ Instead of setting up huge servers, databases etc across the globe, Cloud servic
 - Flexibility
 
 
-### Benifit
+### Benifit of using Cloud Services
 
-  Faster Deployments: Because there’s no wait for local computing resources
-  Usage-based pricing: letting you pay only for what you us
-  Less financial risk: with lower up-front investment in hardware and software
-  Easier upgrades: with no on-premises software to update
-  Reduced need for on-premises resources: such as servers and IT staff
+- **Faster Deployments:** Because there’s no wait for local computing resources
+
+- **Usage-based pricing:** letting you pay only for what you us
+
+- **Less financial risk:** with lower up-front investment in hardware and software
+
+- **Easier upgrades:** with no on-premises software to update
+
+- **Reduced need for on-premises resources:** such as servers and IT staff
+
+Cloud computing enables a user to focus on their projects and customers, without worrying about infrastructure concerns. It not only saves time, money, and effort but also allows users to concentrate on the differentiating aspects of their business.
+
 
 ### Disadvantages of Cloud Computing
 
-  Security Issues: Secuity is the major issue in cloud computing. The cloud  services implement the best security standards and industry  certifications. however storing data on external service providers always  bears a risk.
-  Technical Issues: You always need to rely on the internet like  uploading/downloading and migrating.
+- **Security Issues:** Secuity is the major issue in cloud computing. The cloud  services implement the best security standards and industry  certifications. however storing data on external service providers always  bears a risk.
+  
+- **Technical Issues:** You always need to rely on the internet like  uploading/downloading and migrating.
 
-  Cloud computing enables a user to focus on their projects and customers, without worrying about infrastructure concerns. It not only
-  saves time, money, and effort but also allows users to concentrate on the differentiating aspects of their business.
+
 
 ### Understanding differences between On-premises and Cloud architecture
 

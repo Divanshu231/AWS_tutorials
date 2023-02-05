@@ -1,12 +1,13 @@
 # Cloud Basics
 
+
 #### What is Cloud?
 
-  **Cloud** refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
+> **Cloud** refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
 
 
 #### What is Cloud Computing?
-  Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software etc over the Internet to offer flexible & economic resources that ensure high availability.
+> Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software etc over the Internet to offer flexible & economic resources that ensure high availability.
 
 In it's simplest form, cloud computing provides an easy way to access servers, storage databases, and a broad set of application services over the internet. 
 Cloud computing providers such as AWS own and maintain the network-connected hardware required for those application services, while you provision and use what you need for your workloads.
@@ -31,6 +32,7 @@ Instead of setting up huge servers, databases etc across the globe, Cloud servic
 - Potential to be greener and more economical
 
 - Flexibility
+
 
 ### Benifit
 

@@ -81,22 +81,32 @@ Then you install application(s) on these OS which could be email server(s), web 
 
 For HA, we are keeping another identical Hardware and installed same OS and Application. And then we were create a cluster.
 
-**What is Cluster?**
-> It is a group of two or more then two hardwares. If one Hardware fails, then another one takeover and application do not see downtime.
-
- so like this we manages the HA before 10-15 years back. But Here we face some challeges that we were not able to do effective utalization of resources "like in our case we manages two hardware as cluster but here if first hardware is not failed then the 2nd one is always unutalized" 
-Highcost:  cost of project will be double if you using two Hardware for a single application 
-Managebility was tough if suppose you need 50 servers after using Cluster using 100 servers that needed more space more power consumption more cooling more man power to manage these resources so earlier we faces these challeges in traditional datacentres.
+> **Cluster** is a group of two or more then two hardwares. If one Hardware fails, then another one takeover and application do not see downtime. Simply put, it is a group of nodes hosted on virtual machines and connected within a virtual private cloud.
+ 
 
 ### Disadvantages of traditional Data Centre:- 
-  System resources were under utalized :- if suppose first H/W is not failed then second one is under utalized
-  Difficult to Manage :- 
-  Some times Electricity bill of Data Center was more than the cost of infra :- infra is always having a depreciation cost Every year its 20% less every year after 5 the infra will not be having any significant cost 
 
-### When we were having these challanges 3 companies started working on these challenges they started working on the concept of Virtualization
-  Microsoft 
-  VM Ware
-  Xen
+- **System resources were under utalized**
+> We used to manage HA in this manner around 10-15 years ago. Here we face some challeges that we were not able to effictively utalizate the resources. Like in our case, we manage two hardware as cluster and if first hardware is never failed then the 2nd one is always unutalized.
+
+
+- **Difficult to Manage**
+
+- **High Cost**
+> The cost of project will be double if you using two Hardware for a single application. 
+
+```
+DELETE
+Managing  was tough if suppose you need 50 servers after using Cluster using 100 servers that needed more space more power consumption more cooling more man power to manage these resources so earlier we faces these challeges in traditional datacentres.
+
+Some times Electricity bill of Data Center was more than the cost of infra. Infra is always having a depreciation cost Every year its 20% less every year after 5 the infra will not be having any significant cost 
+```
+
+When we were having these challanges 3 companies started working on these challenges they started working on the concept of **Virtualization**. These 3 companies were:
+
+- Microsoft 
+- VMWare
+- Xen
 
 ### They created a software and the name of the software is hypervisor and hypervisor is a softwae which initiate or starts the virtalization
   When Hypervisor came in market so companies launched there own hypervisor there own name

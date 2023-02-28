@@ -21,10 +21,19 @@ An Internet gateway serves two purposes: to provide a target in your VPC route t
 
 Network ACLs: A network access control list (ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules similar to your security groups in order to add an additional layer of security to your VPC.
 
+
+
 ### Security in Your VPC
 Amazon VPC provides three features that you can use to increase and monitor the security for your VPC:
 Security groups: Act as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound traffic at the instance level
 Network access control lists (ACLs): Act as a firewall for associated subnets, controlling both inbound and outbound traffic at the subnet level
 Flow logs: Capture information about the IP traffic going to and from network interfaces in your VPC
 
+### VPC Architecture and Internal working of VPC
 
+Pic
+
+Design and Deploy Virtual Private Cloud.
+Create Subnets, Internet gateway, Routing, Security Groups and deploy EC2 machine
+with Key Pair.
+through Video

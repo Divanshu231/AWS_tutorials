@@ -88,28 +88,27 @@ An AMI includes the following:
 If you wanted to deploy the same server in different region so you can create an image and copy AMI to different Region you can create 
 just like same server
 
-CHOOSING AN AMI ?
-Quick Start: Will give you a bunch of AMI’s which related to most daily used Operating systems AMI’s.
-My AMIs: This will give you the list of AMIs which you have taken from the instances.
-AWS Marketplace: Will give you a list of AMIs shared by different vendors and third party where you can buy or pay some amount to 
-AWS to use those AMI.
-Community AMIs: Will give you a list of AMIs which was shared by different communities such as Fedora, Open SUSE, CentOS etc.
-Free tier Only: Will display the AMIs which are applicable under Free tier only.
+# CHOOSING AN AMI ?
+- Quick Start: Will give you a bunch of AMI’s which related to most daily used Operating systems AMI’s.
+- My AMIs: This will give you the list of AMIs which you have taken from the instances.
+- AWS Marketplace: Will give you a list of AMIs shared by different vendors and third party where you can buy or pay some amount to 
+- AWS to use those AMI.
+- Community AMIs: Will give you a list of AMIs which was shared by different communities such as Fedora, Open SUSE, CentOS etc.
+- Free tier Only: Will display the AMIs which are applicable under Free tier only.
 
-Difference between AMI and template
-AMI :- It is precaptured state of OS copy of OS
+### Difference between AMI and template
+> AMI :- It is precaptured state of OS copy of OS
 Copy of OS along with Application 
 If you wanted to deploy the same server in different region so you can create an image and copy AMI to different Region you can create 
 just like same server 
 
 PIC
 
-Template :- It is  Predefined preconfigured vm copy of VM
+> Template :- It is  Predefined preconfigured vm copy of VM
 Copy of VM along with OS and Application
 we can say clone to this.
 
 PIC
-
 ### Introduction to Elastic Block Storage(EBS) and Instance Store
 
 • EBS storage is allocated in volumes
@@ -126,8 +125,8 @@ o Be sure to place it near instances (otherwise can't attach)
 o Data is not lost if a single server fails
 o Amazon: Annual failure rate is 0.1-0.2%
 
-Difference between Instance store and EBS
-Instance Store :- It is a storage that physically attached to the host computer and cannot be removed. 
+# Difference between Instance store and EBS
+- Instance Store :- It is a storage that physically attached to the host computer and cannot be removed. 
 Very High IOPS better I/o Performance
 If terminate Ec instance loss data automatically
 cannot resize the instance store
@@ -135,7 +134,7 @@ If physically H/W fails data may be loss
 Recommended for
 Temporary storage
 
-EBS(Elastic block storage) :- EBS is a storage device(called as a volume) that can be attached to (or removed
+- EBS(Elastic block storage) :- EBS is a storage device(called as a volume) that can be attached to (or removed
 from) your instance
 Its portable in nature
 Data Persistent when the instance is not running
